@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: axiommath.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  4 05:09:22 2026 GMT
+  hsts: false
+domains:
+- domain: axiommath.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
